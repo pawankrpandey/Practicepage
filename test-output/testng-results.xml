@@ -2,7 +2,7 @@
 <testng-results ignored="5" total="25" passed="20" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-06T09:34:17 IST" name="Suite" finished-at="2021-07-06T09:34:38 IST" duration-ms="20705">
+  <suite started-at="2021-07-12T18:34:54 IST" name="Suite" finished-at="2021-07-12T18:35:14 IST" duration-ms="20230">
     <groups>
       <group name="smoke">
         <method signature="Navigation.alertWindow()[pri:2, instance:TDD.Practicepage.Navigation@4196c360]" name="alertWindow" class="TDD.Practicepage.Navigation"/>
@@ -30,49 +30,49 @@
         <method signature="Navigation.sliders()[pri:21, instance:TDD.Practicepage.Navigation@4196c360]" name="sliders" class="TDD.Practicepage.Navigation"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2021-07-06T09:34:17 IST" name="Testing" finished-at="2021-07-06T09:34:38 IST" duration-ms="20705">
+    <test started-at="2021-07-12T18:34:54 IST" name="Testing" finished-at="2021-07-12T18:35:14 IST" duration-ms="20230">
       <class name="TDD.Practicepage.Navigation">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:TDD.Practicepage.Navigation@4196c360]" started-at="2021-07-06T09:34:17 IST" name="initialize" finished-at="2021-07-06T09:34:28 IST" duration-ms="11622" status="PASS">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:TDD.Practicepage.Navigation@4196c360]" started-at="2021-07-12T18:34:54 IST" name="initialize" finished-at="2021-07-12T18:35:04 IST" duration-ms="9905" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="newWindow()[pri:1, instance:TDD.Practicepage.Navigation@4196c360]" started-at="2021-07-06T09:34:28 IST" name="newWindow" finished-at="2021-07-06T09:34:30 IST" duration-ms="1085" status="PASS">
+        <test-method signature="newWindow()[pri:1, instance:TDD.Practicepage.Navigation@4196c360]" started-at="2021-07-12T18:35:04 IST" name="newWindow" finished-at="2021-07-12T18:35:05 IST" duration-ms="1341" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- newWindow -->
-        <test-method signature="alertWindow()[pri:2, instance:TDD.Practicepage.Navigation@4196c360]" started-at="2021-07-06T09:34:30 IST" name="alertWindow" finished-at="2021-07-06T09:34:30 IST" duration-ms="115" status="PASS">
+        <test-method signature="alertWindow()[pri:2, instance:TDD.Practicepage.Navigation@4196c360]" started-at="2021-07-12T18:35:05 IST" name="alertWindow" finished-at="2021-07-12T18:35:05 IST" duration-ms="95" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- alertWindow -->
-        <test-method signature="datepicker()[pri:3, instance:TDD.Practicepage.Navigation@4196c360]" started-at="2021-07-06T09:34:30 IST" name="datepicker" finished-at="2021-07-06T09:34:31 IST" duration-ms="1591" status="PASS">
+        <test-method signature="datepicker()[pri:3, instance:TDD.Practicepage.Navigation@4196c360]" started-at="2021-07-12T18:35:05 IST" name="datepicker" finished-at="2021-07-12T18:35:07 IST" duration-ms="1599" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- datepicker -->
-        <test-method signature="selectMenuSpeeds()[pri:4, instance:TDD.Practicepage.Navigation@4196c360]" started-at="2021-07-06T09:34:31 IST" name="selectMenuSpeeds" finished-at="2021-07-06T09:34:32 IST" duration-ms="464" status="PASS">
+        <test-method signature="selectMenuSpeeds()[pri:4, instance:TDD.Practicepage.Navigation@4196c360]" started-at="2021-07-12T18:35:07 IST" name="selectMenuSpeeds" finished-at="2021-07-12T18:35:07 IST" duration-ms="541" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectMenuSpeeds -->
-        <test-method signature="selectMenuFiles()[pri:5, instance:TDD.Practicepage.Navigation@4196c360]" started-at="2021-07-06T09:34:32 IST" name="selectMenuFiles" finished-at="2021-07-06T09:34:32 IST" duration-ms="326" status="PASS">
+        <test-method signature="selectMenuFiles()[pri:5, instance:TDD.Practicepage.Navigation@4196c360]" started-at="2021-07-12T18:35:07 IST" name="selectMenuFiles" finished-at="2021-07-12T18:35:08 IST" duration-ms="364" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectMenuFiles -->
-        <test-method signature="selectMenuNumber()[pri:6, instance:TDD.Practicepage.Navigation@4196c360]" started-at="2021-07-06T09:34:32 IST" name="selectMenuNumber" finished-at="2021-07-06T09:34:32 IST" duration-ms="389" status="PASS">
+        <test-method signature="selectMenuNumber()[pri:6, instance:TDD.Practicepage.Navigation@4196c360]" started-at="2021-07-12T18:35:08 IST" name="selectMenuNumber" finished-at="2021-07-12T18:35:08 IST" duration-ms="377" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectMenuNumber -->
-        <test-method signature="textMenu()[pri:7, instance:TDD.Practicepage.Navigation@4196c360]" started-at="2021-07-06T09:34:32 IST" name="textMenu" finished-at="2021-07-06T09:34:33 IST" duration-ms="92" status="PASS">
+        <test-method signature="textMenu()[pri:7, instance:TDD.Practicepage.Navigation@4196c360]" started-at="2021-07-12T18:35:08 IST" name="textMenu" finished-at="2021-07-12T18:35:08 IST" duration-ms="71" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- textMenu -->
-        <test-method signature="table()[pri:8, instance:TDD.Practicepage.Navigation@4196c360]" started-at="2021-07-06T09:34:33 IST" name="table" finished-at="2021-07-06T09:34:33 IST" duration-ms="291" status="PASS">
+        <test-method signature="table()[pri:8, instance:TDD.Practicepage.Navigation@4196c360]" started-at="2021-07-12T18:35:08 IST" name="table" finished-at="2021-07-12T18:35:08 IST" duration-ms="273" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- table -->
-        <test-method signature="toolTip()[pri:9, instance:TDD.Practicepage.Navigation@4196c360]" started-at="2021-07-06T09:34:33 IST" name="toolTip" finished-at="2021-07-06T09:34:33 IST" duration-ms="334" status="PASS">
+        <test-method signature="toolTip()[pri:9, instance:TDD.Practicepage.Navigation@4196c360]" started-at="2021-07-12T18:35:08 IST" name="toolTip" finished-at="2021-07-12T18:35:09 IST" duration-ms="304" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- toolTip -->
-        <test-method signature="lasttName(java.lang.String, int, java.lang.String, java.lang.String)[pri:11, instance:TDD.Practicepage.Navigation@4196c360]" started-at="2021-07-06T09:34:33 IST" name="lasttName" data-provider="pawan" finished-at="2021-07-06T09:34:33 IST" duration-ms="2" status="PASS">
+        <test-method signature="lasttName(java.lang.String, int, java.lang.String, java.lang.String)[pri:11, instance:TDD.Practicepage.Navigation@4196c360]" started-at="2021-07-12T18:35:09 IST" name="lasttName" data-provider="pawan" finished-at="2021-07-12T18:35:09 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -98,7 +98,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lasttName -->
-        <test-method signature="lasttName(java.lang.String, int, java.lang.String, java.lang.String)[pri:11, instance:TDD.Practicepage.Navigation@4196c360]" started-at="2021-07-06T09:34:33 IST" name="lasttName" data-provider="pawan" finished-at="2021-07-06T09:34:33 IST" duration-ms="1" status="PASS">
+        <test-method signature="lasttName(java.lang.String, int, java.lang.String, java.lang.String)[pri:11, instance:TDD.Practicepage.Navigation@4196c360]" started-at="2021-07-12T18:35:09 IST" name="lasttName" data-provider="pawan" finished-at="2021-07-12T18:35:09 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -124,33 +124,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lasttName -->
-        <test-method signature="lasttName(java.lang.String, int, java.lang.String, java.lang.String)[pri:11, instance:TDD.Practicepage.Navigation@4196c360]" started-at="2021-07-06T09:34:33 IST" name="lasttName" data-provider="pawan" finished-at="2021-07-06T09:34:33 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[hare@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[hi]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[world]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- lasttName -->
-        <test-method signature="lasttName(java.lang.String, int, java.lang.String, java.lang.String)[pri:11, instance:TDD.Practicepage.Navigation@4196c360]" started-at="2021-07-06T09:34:33 IST" name="lasttName" data-provider="pawan" finished-at="2021-07-06T09:34:33 IST" duration-ms="2" status="PASS">
+        <test-method signature="lasttName(java.lang.String, int, java.lang.String, java.lang.String)[pri:11, instance:TDD.Practicepage.Navigation@4196c360]" started-at="2021-07-12T18:35:09 IST" name="lasttName" data-provider="pawan" finished-at="2021-07-12T18:35:09 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -176,35 +150,61 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lasttName -->
-        <test-method signature="phone()[pri:12, instance:TDD.Practicepage.Navigation@4196c360]" started-at="2021-07-06T09:34:33 IST" name="phone" finished-at="2021-07-06T09:34:34 IST" duration-ms="926" status="PASS">
+        <test-method signature="lasttName(java.lang.String, int, java.lang.String, java.lang.String)[pri:11, instance:TDD.Practicepage.Navigation@4196c360]" started-at="2021-07-12T18:35:09 IST" name="lasttName" data-provider="pawan" finished-at="2021-07-12T18:35:09 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hare@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[hi]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[world]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lasttName -->
+        <test-method signature="phone()[pri:12, instance:TDD.Practicepage.Navigation@4196c360]" started-at="2021-07-12T18:35:09 IST" name="phone" finished-at="2021-07-12T18:35:10 IST" duration-ms="964" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- phone -->
-        <test-method signature="country()[pri:13, instance:TDD.Practicepage.Navigation@4196c360]" started-at="2021-07-06T09:34:34 IST" name="country" finished-at="2021-07-06T09:34:34 IST" duration-ms="309" status="PASS">
+        <test-method signature="country()[pri:13, instance:TDD.Practicepage.Navigation@4196c360]" started-at="2021-07-12T18:35:10 IST" name="country" finished-at="2021-07-12T18:35:10 IST" duration-ms="295" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- country -->
-        <test-method signature="Doubleclick()[pri:19, instance:TDD.Practicepage.Navigation@4196c360]" started-at="2021-07-06T09:34:34 IST" name="Doubleclick" finished-at="2021-07-06T09:34:35 IST" duration-ms="196" status="PASS">
+        <test-method signature="Doubleclick()[pri:19, instance:TDD.Practicepage.Navigation@4196c360]" started-at="2021-07-12T18:35:10 IST" name="Doubleclick" finished-at="2021-07-12T18:35:10 IST" duration-ms="184" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Doubleclick -->
-        <test-method signature="dragAndDrop()[pri:20, instance:TDD.Practicepage.Navigation@4196c360]" started-at="2021-07-06T09:34:35 IST" name="dragAndDrop" finished-at="2021-07-06T09:34:35 IST" duration-ms="408" status="PASS">
+        <test-method signature="dragAndDrop()[pri:20, instance:TDD.Practicepage.Navigation@4196c360]" started-at="2021-07-12T18:35:10 IST" name="dragAndDrop" finished-at="2021-07-12T18:35:11 IST" duration-ms="420" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dragAndDrop -->
-        <test-method signature="sliders()[pri:21, instance:TDD.Practicepage.Navigation@4196c360]" started-at="2021-07-06T09:34:35 IST" name="sliders" finished-at="2021-07-06T09:34:36 IST" duration-ms="450" status="PASS">
+        <test-method signature="sliders()[pri:21, instance:TDD.Practicepage.Navigation@4196c360]" started-at="2021-07-12T18:35:11 IST" name="sliders" finished-at="2021-07-12T18:35:11 IST" duration-ms="427" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sliders -->
-        <test-method signature="resize()[pri:22, instance:TDD.Practicepage.Navigation@4196c360]" started-at="2021-07-06T09:34:36 IST" name="resize" finished-at="2021-07-06T09:34:36 IST" duration-ms="467" status="PASS">
+        <test-method signature="resize()[pri:22, instance:TDD.Practicepage.Navigation@4196c360]" started-at="2021-07-12T18:35:11 IST" name="resize" finished-at="2021-07-12T18:35:12 IST" duration-ms="426" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resize -->
-        <test-method signature="barcodes()[pri:23, instance:TDD.Practicepage.Navigation@4196c360]" started-at="2021-07-06T09:34:36 IST" name="barcodes" finished-at="2021-07-06T09:34:37 IST" duration-ms="1428" status="PASS">
+        <test-method signature="barcodes()[pri:23, instance:TDD.Practicepage.Navigation@4196c360]" started-at="2021-07-12T18:35:12 IST" name="barcodes" finished-at="2021-07-12T18:35:14 IST" duration-ms="2466" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- barcodes -->
-        <test-method is-config="true" signature="close()[pri:0, instance:TDD.Practicepage.Navigation@4196c360]" started-at="2021-07-06T09:34:37 IST" name="close" finished-at="2021-07-06T09:34:38 IST" duration-ms="83" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:TDD.Practicepage.Navigation@4196c360]" started-at="2021-07-12T18:35:14 IST" name="close" finished-at="2021-07-12T18:35:14 IST" duration-ms="76" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->

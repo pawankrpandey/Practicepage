@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <listeners>
-    <listener class-name="Practice.Listners"/>
+    <listener class-name="TDD.Practicepage.Listners"/>
   </listeners>
   <test thread-count="5" name="Testing(failed)">
     <parameter name="Mr" value="pawan"/>
@@ -13,13 +13,27 @@
       </run>
     </groups>
     <classes>
-      <class name="Practice.Navigation">
+      <class name="TDD.Practicepage.Navigation">
         <methods>
-          <include name="initialize"/>
+          <include name="toolTip"/>
+          <include name="dragAndDrop"/>
+          <include name="barcodes"/>
+          <include name="selectMenuFiles"/>
+          <include name="datepicker"/>
           <include name="country"/>
+          <include name="alertWindow"/>
+          <include name="textMenu"/>
+          <include name="Doubleclick"/>
+          <include name="newWindow"/>
+          <include name="initialize"/>
+          <include name="resize"/>
+          <include name="selectMenuNumber"/>
+          <include name="selectMenuSpeeds"/>
+          <include name="table"/>
           <include name="close"/>
+          <include name="sliders"/>
         </methods>
-      </class> <!-- Practice.Navigation -->
+      </class> <!-- TDD.Practicepage.Navigation -->
     </classes>
   </test> <!-- Testing(failed) -->
 </suite> <!-- Failed suite [Suite] -->

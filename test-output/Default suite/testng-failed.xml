@@ -3,34 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Practice.Navigation">
+      <class name="TDD.Practicepage.Navigation">
         <methods>
-          <include name="phone"/>
           <include name="initialize"/>
-          <include name="thrusday"/>
-          <include name="lasttName"/>
-          <include name="sliders"/>
-          <include name="resize"/>
-          <include name="selectMenuNumber"/>
-          <include name="selectMenuSpeeds"/>
-          <include name="table"/>
-          <include name="checkbox"/>
-          <include name="email"/>
-          <include name="Doubleclick"/>
-          <include name="alertWindow"/>
-          <include name="city"/>
-          <include name="country"/>
           <include name="close"/>
-          <include name="textMenu"/>
-          <include name="radio"/>
-          <include name="barcodes"/>
-          <include name="dragAndDrop"/>
-          <include name="datepicker"/>
-          <include name="newWindow"/>
-          <include name="selectMenuFiles"/>
-          <include name="toolTip"/>
+          <include name="country"/>
         </methods>
-      </class> <!-- Practice.Navigation -->
+      </class> <!-- TDD.Practicepage.Navigation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -10,7 +10,13 @@
   <name>Practicepage</name>
   <url>http://maven.apache.org</url>
   
- <build>
+
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  
+   <build>
   <resources>
    <resource>
         <directory>src/main/resource</directory>
@@ -34,17 +40,13 @@
         <version>3.0.0-M5</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>${testngfile}</suiteXmlFile> 
+            <suiteXmlFile>testng.xml</suiteXmlFile> 
           </suiteXmlFiles>
         </configuration>
       </plugin>
    
 </plugins>
   </build>
-
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
   
   <dependencies>
   <!-- https://mvnrepository.com/artifact/org.testng/testng -->

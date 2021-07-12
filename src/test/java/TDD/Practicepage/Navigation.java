@@ -287,7 +287,7 @@ public class Navigation extends Base {
 	@Test(priority=13,groups= {"smoke"})
 	public void country() throws IOException
 	{
-		FileInputStream fis = new FileInputStream("C:\\Users\\pawan\\Excledrive\\demo1.xlsx");
+		FileInputStream fis = new FileInputStream("C:\\Users\\pawan\\Excledrive\\demo2.xlsx");
 		XSSFWorkbook workbook = new XSSFWorkbook(fis);
 		
 		XSSFSheet s = workbook.getSheetAt(0);
@@ -305,7 +305,7 @@ public class Navigation extends Base {
 		//cell1.removeCellComment();
 		}
 		
-		FileOutputStream fos = new FileOutputStream("C:\\Users\\pawan\\Excledrive\\demo1.xlsx");
+		FileOutputStream fos = new FileOutputStream("C:\\Users\\pawan\\Excledrive\\demo2.xlsx");
 		workbook.write(fos);
 		fos.close();
 		}

@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>D:\Practice_Java\Practicepage\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods,   20 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TDD.Practicepage.Navigation" class="method navigator-link" hash-for-method="Doubleclick">Doubleclick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TDD.Practicepage.Navigation" class="method navigator-link" hash-for-method="alertWindow">alertWindow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TDD.Practicepage.Navigation" class="method navigator-link" hash-for-method="barcodes">barcodes</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TDD.Practicepage.Navigation" class="method navigator-link" hash-for-method="country">country</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TDD.Practicepage.Navigation" class="method navigator-link" hash-for-method="datepicker">datepicker</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TDD.Practicepage.Navigation" class="method navigator-link" hash-for-method="dragAndDrop">dragAndDrop</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TDD.Practicepage.Navigation" class="method navigator-link" hash-for-method="lasttName(pawan@gmail.com, 12345, hey, world)">lasttName(pawan@gmail.com, 12345, hey, world)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TDD.Practicepage.Navigation" class="method navigator-link" hash-for-method="lasttName(pandey@gmail.com, 456789, how, world)">lasttName(pandey@gmail.com, 456789, how, world)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TDD.Practicepage.Navigation" class="method navigator-link" hash-for-method="lasttName(krishna@gmail.com, 456, hello, world)">lasttName(krishna@gmail.com, 456, hello, world)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TDD.Practicepage.Navigation" class="method navigator-link" hash-for-method="lasttName(hare@gmail.com, 123, hi, world)">lasttName(hare@gmail.com, 123, hi, world)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TDD.Practicepage.Navigation" class="method navigator-link" hash-for-method="newWindow">newWindow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TDD.Practicepage.Navigation" class="method navigator-link" hash-for-method="phone">phone</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TDD.Practicepage.Navigation" class="method navigator-link" hash-for-method="resize">resize</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TDD.Practicepage.Navigation" class="method navigator-link" hash-for-method="selectMenuFiles">selectMenuFiles</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TDD.Practicepage.Navigation" class="method navigator-link" hash-for-method="selectMenuNumber">selectMenuNumber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TDD.Practicepage.Navigation" class="method navigator-link" hash-for-method="selectMenuSpeeds">selectMenuSpeeds</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TDD.Practicepage.Navigation" class="method navigator-link" hash-for-method="sliders">sliders</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TDD.Practicepage.Navigation" class="method navigator-link" hash-for-method="table">table</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TDD.Practicepage.Navigation" class="method navigator-link" hash-for-method="textMenu">textMenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TDD.Practicepage.Navigation" class="method navigator-link" hash-for-method="toolTip">toolTip</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TDD.Practicepage.Navigation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Doubleclick">
+                  </a> <!-- Doubleclick -->
+                  <span class="method-name">Doubleclick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="alertWindow">
+                  </a> <!-- alertWindow -->
+                  <span class="method-name">alertWindow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="barcodes">
+                  </a> <!-- barcodes -->
+                  <span class="method-name">barcodes</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="country">
+                  </a> <!-- country -->
+                  <span class="method-name">country</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="datepicker">
+                  </a> <!-- datepicker -->
+                  <span class="method-name">datepicker</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dragAndDrop">
+                  </a> <!-- dragAndDrop -->
+                  <span class="method-name">dragAndDrop</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="lasttName(pawan@gmail.com, 12345, hey, world)">
+                  </a> <!-- lasttName(pawan@gmail.com, 12345, hey, world) -->
+                  <span class="method-name">lasttName</span>
+                  <span class="parameters">(pawan@gmail.com, 12345, hey, world)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="lasttName(pandey@gmail.com, 456789, how, world)">
+                  </a> <!-- lasttName(pandey@gmail.com, 456789, how, world) -->
+                  <span class="method-name">lasttName</span>
+                  <span class="parameters">(pandey@gmail.com, 456789, how, world)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="lasttName(krishna@gmail.com, 456, hello, world)">
+                  </a> <!-- lasttName(krishna@gmail.com, 456, hello, world) -->
+                  <span class="method-name">lasttName</span>
+                  <span class="parameters">(krishna@gmail.com, 456, hello, world)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="lasttName(hare@gmail.com, 123, hi, world)">
+                  </a> <!-- lasttName(hare@gmail.com, 123, hi, world) -->
+                  <span class="method-name">lasttName</span>
+                  <span class="parameters">(hare@gmail.com, 123, hi, world)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="newWindow">
+                  </a> <!-- newWindow -->
+                  <span class="method-name">newWindow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="phone">
+                  </a> <!-- phone -->
+                  <span class="method-name">phone</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="resize">
+                  </a> <!-- resize -->
+                  <span class="method-name">resize</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectMenuFiles">
+                  </a> <!-- selectMenuFiles -->
+                  <span class="method-name">selectMenuFiles</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectMenuNumber">
+                  </a> <!-- selectMenuNumber -->
+                  <span class="method-name">selectMenuNumber</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectMenuSpeeds">
+                  </a> <!-- selectMenuSpeeds -->
+                  <span class="method-name">selectMenuSpeeds</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sliders">
+                  </a> <!-- sliders -->
+                  <span class="method-name">sliders</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="table">
+                  </a> <!-- table -->
+                  <span class="method-name">table</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="textMenu">
+                  </a> <!-- textMenu -->
+                  <span class="method-name">textMenu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="toolTip">
+                  </a> <!-- toolTip -->
+                  <span class="method-name">toolTip</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Practice_Java\Practicepage\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;TDD.Practicepage.Listners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Testing&quot;&gt;
+    &lt;parameter name=&quot;Mr&quot; value=&quot;pawan&quot;/&gt;
+    &lt;parameter name=&quot;title&quot; value=&quot;pandey&quot;/&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;exclude name=&quot;regration&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TDD.Practicepage.Navigation&quot;&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;firstName&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- TDD.Practicepage.Navigation --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Testing --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Testing (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Doubleclick</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">alertWindow</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">barcodes</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">datepicker</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">dragAndDrop</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">newWindow</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">resize</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectMenuSpeeds</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">sliders</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">alertWindow</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">country</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">datepicker</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">lasttName</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">newWindow</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">phone</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectMenuFiles</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectMenuNumber</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectMenuSpeeds</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">table</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">textMenu</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">toolTip</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'datepicker')
+data.setCell(0, 2, 'TDD.Practicepage.Navigation')
+data.setCell(0, 3, 1591);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'barcodes')
+data.setCell(1, 2, 'TDD.Practicepage.Navigation')
+data.setCell(1, 3, 1428);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'newWindow')
+data.setCell(2, 2, 'TDD.Practicepage.Navigation')
+data.setCell(2, 3, 1085);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'phone')
+data.setCell(3, 2, 'TDD.Practicepage.Navigation')
+data.setCell(3, 3, 926);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'resize')
+data.setCell(4, 2, 'TDD.Practicepage.Navigation')
+data.setCell(4, 3, 467);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'selectMenuSpeeds')
+data.setCell(5, 2, 'TDD.Practicepage.Navigation')
+data.setCell(5, 3, 464);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'sliders')
+data.setCell(6, 2, 'TDD.Practicepage.Navigation')
+data.setCell(6, 3, 450);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'dragAndDrop')
+data.setCell(7, 2, 'TDD.Practicepage.Navigation')
+data.setCell(7, 3, 408);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'selectMenuNumber')
+data.setCell(8, 2, 'TDD.Practicepage.Navigation')
+data.setCell(8, 3, 389);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'toolTip')
+data.setCell(9, 2, 'TDD.Practicepage.Navigation')
+data.setCell(9, 3, 334);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'selectMenuFiles')
+data.setCell(10, 2, 'TDD.Practicepage.Navigation')
+data.setCell(10, 3, 326);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'country')
+data.setCell(11, 2, 'TDD.Practicepage.Navigation')
+data.setCell(11, 3, 309);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'table')
+data.setCell(12, 2, 'TDD.Practicepage.Navigation')
+data.setCell(12, 3, 291);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Doubleclick')
+data.setCell(13, 2, 'TDD.Practicepage.Navigation')
+data.setCell(13, 3, 196);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'alertWindow')
+data.setCell(14, 2, 'TDD.Practicepage.Navigation')
+data.setCell(14, 3, 115);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'textMenu')
+data.setCell(15, 2, 'TDD.Practicepage.Navigation')
+data.setCell(15, 3, 92);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'lasttName')
+data.setCell(16, 2, 'TDD.Practicepage.Navigation')
+data.setCell(16, 3, 2);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'lasttName')
+data.setCell(17, 2, 'TDD.Practicepage.Navigation')
+data.setCell(17, 3, 2);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'lasttName')
+data.setCell(18, 2, 'TDD.Practicepage.Navigation')
+data.setCell(18, 3, 2);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'lasttName')
+data.setCell(19, 2, 'TDD.Practicepage.Navigation')
+data.setCell(19, 3, 1);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">5 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">TDD.Practicepage.Navigation</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">checkbox</span>
+                <br/>
+                <span class="ignored-method-name">thrusday</span>
+                <br/>
+                <span class="ignored-method-name">email</span>
+                <br/>
+                <span class="ignored-method-name">radio</span>
+                <br/>
+                <span class="ignored-method-name">city</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TDD.Practicepage.Navigation</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">newWindow</span>
+                <span class="method-start">11659 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">alertWindow</span>
+                <span class="method-start">12765 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">datepicker</span>
+                <span class="method-start">12884 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectMenuSpeeds</span>
+                <span class="method-start">14478 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectMenuFiles</span>
+                <span class="method-start">14945 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectMenuNumber</span>
+                <span class="method-start">15273 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">textMenu</span>
+                <span class="method-start">15665 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">table</span>
+                <span class="method-start">15760 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">toolTip</span>
+                <span class="method-start">16053 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">lasttName(pawan@gmail.com, 12345, hey, world)</span>
+                <span class="method-start">16396 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">lasttName(pandey@gmail.com, 456789, how, world)</span>
+                <span class="method-start">16401 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">lasttName(hare@gmail.com, 123, hi, world)</span>
+                <span class="method-start">16403 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">lasttName(krishna@gmail.com, 456, hello, world)</span>
+                <span class="method-start">16406 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">phone</span>
+                <span class="method-start">16410 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">country</span>
+                <span class="method-start">17338 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Doubleclick</span>
+                <span class="method-start">17654 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dragAndDrop</span>
+                <span class="method-start">17852 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sliders</span>
+                <span class="method-start">18261 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">resize</span>
+                <span class="method-start">18713 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">barcodes</span>
+                <span class="method-start">19182 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">close</span>
+                <span class="method-start">20613 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
